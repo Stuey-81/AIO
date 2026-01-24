@@ -1,0 +1,26 @@
+{
+  "meta": {
+    "name": "Stujitsu AIO v1",
+    "version": "1.0",
+    "author": "Stuey",
+    "description": "Custom AIO with top 2 best-quality streams, cached preferred, 8GB max size, English only"
+  },
+  "settings": {
+    "max_results_total": 2,
+    "resolutions": ["2160p", "1440p", "1080p"],
+    "min_resolution": "1080p",
+    "max_file_size_gb": 8,
+    "languages": ["english"],
+    "sort_by": "quality",
+    "prefer_cached": true,
+    "fallback_to_uncached": true
+  },
+  "addons": [
+    "torrentio",
+    "comet",
+    "mediafusion",
+    "stremthru-torz",
+    "webstreamr-heyduck",
+    "debridsearch"
+  ]
+}
