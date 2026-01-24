@@ -1,0 +1,29 @@
+{
+  "id": "stujitsu.aio",
+  "version": "1.0.0",
+  "name": "Stujitsu AIO Streams",
+  "description": "Top 2 cached (or fallback) streams per addon, English only, 8GB max, 4K/1080p minimum — by Stuey",
+  "resources": [
+    {
+      "name": "stream",
+      "types": ["movie", "series"],
+      "idPrefixes": ["tt"]
+    }
+  ],
+  "types": ["movie", "series"],
+  "catalogs": [],
+  "behaviorHints": {
+    "configurationRequired": false
+  },
+  "idPrefixes": ["tt"],
+  "logo": "https://raw.githubusercontent.com/Stuey-81/AIO/main/icon.png",
+  "background": "https://raw.githubusercontent.com/Stuey-81/AIO/main/background.jpg",
+  "contactEmail": "your@email.com",
+  "extConfig": [
+    {
+      "name": "AIO Config",
+      "type": "url",
+      "default": "https://raw.githubusercontent.com/Stuey-81/AIO/main/aio-config.json"
+    }
+  ]
+}
