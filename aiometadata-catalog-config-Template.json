@@ -1,0 +1,3019 @@
+{
+  "version": "1.33.2",
+  "exportedAt": "2026-03-11T04:20:27.589Z",
+  "config": {
+    "language": "en-US",
+    "includeAdult": false,
+    "blurThumbs": false,
+    "showPrefix": false,
+    "showMetaProviderAttribution": false,
+    "castCount": 10,
+    "displayAgeRating": false,
+    "showDisabledCatalogs": false,
+    "sfw": true,
+    "hideUnreleasedDigital": true,
+    "hideUnreleasedDigitalSearch": true,
+    "providers": {
+      "movie": "tmdb",
+      "series": "tvdb",
+      "anime": "tvdb",
+      "anime_id_provider": "imdb",
+      "forceAnimeForDetectedImdb": false
+    },
+    "artProviders": {
+      "movie": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "series": {
+        "poster": "meta",
+        "background": "meta",
+        "logo": "meta"
+      },
+      "anime": {
+        "poster": "tvdb",
+        "background": "tvdb",
+        "logo": "tvdb"
+      },
+      "englishArtOnly": false
+    },
+    "tvdbSeasonType": "default",
+    "mal": {
+      "skipFiller": true,
+      "skipRecap": true,
+      "allowEpisodeMarking": true,
+      "useImdbIdForCatalogAndSearch": false
+    },
+    "tmdb": {
+      "scrapeImdb": false,
+      "forceLatinCastNames": false
+    },
+    "apiKeys": {
+      "gemini": "",
+      "tmdb": "",
+      "tvdb": "",
+      "fanart": "",
+      "rpdb": "",
+      "topPoster": "",
+      "mdblist": "",
+      "traktTokenId": "",
+      "simklTokenId": "",
+      "anilistTokenId": "",
+      "customDescriptionBlurb": ""
+    },
+    "posterRatingProvider": "rpdb",
+    "usePosterProxy": true,
+    "mdblistWatchTracking": true,
+    "anilistWatchTracking": false,
+    "simklWatchTracking": true,
+    "enableRatingPostersForLibrary": true,
+    "showRateMeButton": false,
+    "ageRating": "None",
+    "searchEnabled": true,
+    "sessionId": "",
+    "catalogSetupComplete": true,
+    "timezone": "Australia/Brisbane",
+    "catalogs": [
+      {
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.trending",
+        "name": "TMDB Trending",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": true,
+        "showInHome": true,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top",
+        "name": "TMDB Popular",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.discover.series.tmdb_top_rated_custom.mlzwi4ox",
+        "type": "series",
+        "name": "TMDB Top Rated",
+        "enabled": false,
+        "showInHome": false,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=vote_average.desc&include_adult=false&without_genres=16&watch_region=US&vote_count.gte=500",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "vote_average.desc",
+              "include_adult": false,
+              "without_genres": "16",
+              "watch_region": "US",
+              "vote_count.gte": 500
+            },
+            "formState": {
+              "catalogName": "TMDB Top Rated (Custom)",
+              "discoverSource": "tmdb",
+              "sortBy": "vote_average.desc",
+              "cacheTTL": 86400,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 16,
+                  "label": "Animation"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 500,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        },
+        "displayType": "series"
+      },
+      {
+        "id": "tmdb.top_rated",
+        "name": "TMDB Top Rated",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.airing_today",
+        "name": "TMDB Airing Today",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.year",
+        "name": "TMDB By Year",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.year",
+        "name": "TMDB By Year",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "movie",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.language",
+        "name": "TMDB By Language",
+        "type": "series",
+        "source": "tmdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "TVDB Trending",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.trending",
+        "name": "TVDB Trending",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "TVDB Genres",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.genres",
+        "name": "TVDB Genres",
+        "type": "series",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvdb.collections",
+        "name": "TVDB Collections",
+        "type": "movie",
+        "source": "tvdb",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tvmaze.schedule",
+        "name": "TVmaze Daily Schedule",
+        "type": "series",
+        "source": "tvmaze",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.airing",
+        "name": "MAL Airing Now",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.upcoming",
+        "name": "MAL Upcoming Season",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.schedule",
+        "name": "MAL Airing Schedule",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.seasons",
+        "name": "MAL Seasons",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.80sDecade",
+        "name": "MAL Best of 80s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.90sDecade",
+        "name": "MAL Best of 90s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.00sDecade",
+        "name": "MAL Best of 2000s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.10sDecade",
+        "name": "MAL Best of 2010s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.20sDecade",
+        "name": "MAL Best of 2020s",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.genres",
+        "name": "MAL Genres",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.studios",
+        "name": "MAL By Studio",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_movies",
+        "name": "MAL Top Movies",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_series",
+        "name": "MAL Top Series",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.most_favorites",
+        "name": "MAL Most Favorites",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.most_popular",
+        "name": "MAL Most Popular",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "mal.top_anime",
+        "name": "MAL Top Anime",
+        "type": "anime",
+        "source": "mal",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfx",
+        "name": "Netflix (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nfk",
+        "name": "Netflix Kids (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hbm",
+        "name": "HBO Max (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dnp",
+        "name": "Disney+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.amp",
+        "name": "Prime Video (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.atp",
+        "name": "Apple TV+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pmp",
+        "name": "Paramount+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.pcp",
+        "name": "Peacock Premium (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hlu",
+        "name": "Hulu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cts",
+        "name": "Curiosity Stream (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mgl",
+        "name": "MagellanTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cru",
+        "name": "Crunchyroll (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hay",
+        "name": "Hayu (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.clv",
+        "name": "Clarovideo (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.gop",
+        "name": "Globoplay (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hst",
+        "name": "JioHotstar (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.slv",
+        "name": "Sony Liv (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.zee",
+        "name": "Zee5 (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.nlz",
+        "name": "NLZIET (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.vil",
+        "name": "Videoland (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sst",
+        "name": "SkyShowtime (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sky",
+        "name": "Sky Go (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.wow",
+        "name": "WOW (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.blv",
+        "name": "BluTV (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.cpd",
+        "name": "Canal+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crv",
+        "name": "Crave (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.dpe",
+        "name": "Discovery+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.bet",
+        "name": "Bet+ (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.mub",
+        "name": "MUBI (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.sta",
+        "name": "Starz (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.crc",
+        "name": "Criterion Channel (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Movies)",
+        "type": "movie",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "streaming.hid",
+        "name": "HIDIVE (Series)",
+        "type": "series",
+        "source": "streaming",
+        "enabled": false,
+        "showInHome": false,
+        "sort": "default",
+        "order": "asc"
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_netflix_8_0.mlzvpxuz",
+        "type": "movie",
+        "name": "Netflix",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&without_genres=16&watch_region=US&with_watch_providers=8&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "without_genres": "16",
+              "watch_region": "US",
+              "with_watch_providers": "8",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Netflix",
+              "discoverSource": "tmdb",
+              "sortBy": "popularity.desc",
+              "cacheTTL": 86400,
+              "catalogType": "movie",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 16,
+                  "label": "Animation"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 8,
+                  "label": "Netflix"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_netflix_8_0.mlzvpxuz",
+        "type": "series",
+        "name": "Netflix",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=16&watch_region=US&with_watch_providers=8&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "without_genres": "16",
+              "watch_region": "US",
+              "with_watch_providers": "8",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Netflix",
+              "discoverSource": "tmdb",
+              "sortBy": "popularity.desc",
+              "cacheTTL": 86400,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 16,
+                  "label": "Animation"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 8,
+                  "label": "Netflix"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years",
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_prime_video_9_1.mlzvpxuz",
+        "type": "movie",
+        "name": "Prime Video",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=9&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "9",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Prime Video",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 9,
+                  "label": "Amazon Prime Video"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_prime_video_9_1.mlzvpxuz",
+        "type": "series",
+        "name": "Prime Video",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=9&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "9",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Prime Video",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 9,
+                  "label": "Amazon Prime Video"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_hbo_max_1899_2.mlzvpxuz",
+        "type": "movie",
+        "name": "HBO Max",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=1899&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "1899",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "HBO Max",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 1899,
+                  "label": "HBO Max"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_hbo_max_1899_2.mlzvpxuz",
+        "type": "series",
+        "name": "HBO Max",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=1899&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "1899",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "HBO Max",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 1899,
+                  "label": "HBO Max"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_apple_tv_350_3.mlzvpxuz",
+        "type": "movie",
+        "name": "Apple TV",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=350&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "350",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Apple TV",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 350,
+                  "label": "Apple TV"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_apple_tv_350_3.mlzvpxuz",
+        "type": "series",
+        "name": "Apple TV",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=350&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "350",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Apple TV",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 350,
+                  "label": "Apple TV"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_disney_337_4.mlzvpxuz",
+        "type": "movie",
+        "name": "Disney+",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "337",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Disney+",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 337,
+                  "label": "Disney Plus"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_disney_337_4.mlzvpxuz",
+        "type": "series",
+        "name": "Disney+",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=337&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "337",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Disney+",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 337,
+                  "label": "Disney Plus"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_paramount_2616_2303_5.mlzvpxuz",
+        "type": "movie",
+        "name": "Paramount",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=2616%7C2303&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "2616|2303",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Paramount",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 2616,
+                  "label": "Paramount Plus Essential"
+                },
+                {
+                  "id": 2303,
+                  "label": "Paramount Plus Premium"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_paramount_2616_2303_5.mlzvpxuz",
+        "type": "series",
+        "name": "Paramount",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=2616%7C2303&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "2616|2303",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Paramount",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 2616,
+                  "label": "Paramount Plus Essential"
+                },
+                {
+                  "id": 2303,
+                  "label": "Paramount Plus Premium"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_hulu_15_6.mlzvpxuz",
+        "type": "movie",
+        "name": "Hulu",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=15&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "15",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Hulu",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 15,
+                  "label": "Hulu"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_hulu_15_6.mlzvpxuz",
+        "type": "series",
+        "name": "Hulu",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&without_genres=16&watch_region=US&with_watch_providers=15&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "without_genres": "16",
+              "watch_region": "US",
+              "with_watch_providers": "15",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Hulu",
+              "discoverSource": "tmdb",
+              "sortBy": "popularity.desc",
+              "cacheTTL": 86400,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [
+                {
+                  "id": 16,
+                  "label": "Animation"
+                }
+              ],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 15,
+                  "label": "Hulu"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 10,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_discovery_520_7.mlzvpxuz",
+        "type": "movie",
+        "name": "Discovery+",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=520&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "520",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Discovery+",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 520,
+                  "label": "Discovery +"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_discovery_520_7.mlzvpxuz",
+        "type": "series",
+        "name": "Discovery+",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=520&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "520",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "Discovery+",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 520,
+                  "label": "Discovery +"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "mdblist.3928",
+        "type": "movie",
+        "name": "DreamWorks Movie Collection",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 46,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/dreamworks-movie-collection",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.13",
+        "type": "movie",
+        "name": "Top Watched Movies of The Week for KiDS",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 17,
+          "author": "linaspurinis",
+          "url": "https://mdblist.com/lists/linaspurinis/top-watched-movies-of-the-week-for-kids",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3918",
+        "type": "movie",
+        "name": "Pixar Movie Collection",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 26,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/pixar-movie-collection",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.streaming_disneynow_508_11.mlzvpxuz",
+        "type": "movie",
+        "name": "DisneyNOW",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=508&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&primary_release_date.gte=2021-02-24&primary_release_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "508",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "primary_release_date.gte": "__tmdb_date__:last_5_years:from",
+              "primary_release_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "DisneyNOW",
+              "discoverSource": "tmdb",
+              "catalogType": "movie",
+              "tmdbMediaType": "movie",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 508,
+                  "label": "DisneyNOW"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "primaryReleaseFrom": "2021-02-24",
+              "primaryReleaseTo": "2026-02-24",
+              "movieDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.streaming_disneynow_508_11.mlzvpxuz",
+        "type": "series",
+        "name": "DisneyNOW",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=508&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy&vote_count.gte=10&first_air_date.gte=2021-02-24&first_air_date.lte=2026-02-24",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "508",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy",
+              "vote_count.gte": 10,
+              "first_air_date.gte": "__tmdb_date__:last_5_years:from",
+              "first_air_date.lte": "__tmdb_date__:last_5_years:to"
+            },
+            "formState": {
+              "catalogName": "DisneyNOW",
+              "discoverSource": "tmdb",
+              "catalogType": "series",
+              "tmdbMediaType": "tv",
+              "sortBy": "popularity.desc",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 508,
+                  "label": "DisneyNOW"
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteCountMin": 10,
+              "firstAirFrom": "2021-02-24",
+              "firstAirTo": "2026-02-24",
+              "seriesDatePreset": "last_5_years"
+            }
+          }
+        }
+      },
+      {
+        "id": "mdblist.2410",
+        "type": "movie",
+        "name": "Horror Movies (Top Rated From 1960 to Today)",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 896,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/latest-hd-horror-movies-top-rated-from-1980-to-today",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2236",
+        "type": "movie",
+        "name": "Top Movies of the week",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 6,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/top-movies-of-the-week",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3885",
+        "type": "movie",
+        "name": "100% on RottenTomatoes.com",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 60,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/100-on-rottentomatoes-com",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3087",
+        "type": "series",
+        "name": "BBC Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 300,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/bbc-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "tmdb.discover.movie.britbox.mm002pcg",
+        "type": "movie",
+        "name": "Britbox",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (movie)",
+          "url": "https://www.themoviedb.org/discover/movie?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=1852&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "movie",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "1852",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy"
+            },
+            "formState": {
+              "catalogName": "Britbox",
+              "discoverSource": "tmdb",
+              "sortBy": "popularity.desc",
+              "cacheTTL": 86400,
+              "catalogType": "movie",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 1852,
+                  "label": "Britbox Apple TV Channel "
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 0,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        }
+      },
+      {
+        "id": "tmdb.discover.series.britbox.mm00qtvt",
+        "type": "series",
+        "name": "Britbox",
+        "enabled": true,
+        "showInHome": true,
+        "source": "tmdb",
+        "cacheTTL": 86400,
+        "metadata": {
+          "description": "TMDB Discover (tv)",
+          "url": "https://www.themoviedb.org/discover/tv?sort_by=popularity.desc&include_adult=false&watch_region=US&with_watch_providers=1852&with_watch_monetization_types=flatrate%7Cfree%7Cads%7Crent%7Cbuy",
+          "discover": {
+            "version": 2,
+            "source": "tmdb",
+            "mediaType": "tv",
+            "params": {
+              "sort_by": "popularity.desc",
+              "include_adult": false,
+              "watch_region": "US",
+              "with_watch_providers": "1852",
+              "with_watch_monetization_types": "flatrate|free|ads|rent|buy"
+            },
+            "formState": {
+              "catalogName": "Britbox",
+              "discoverSource": "tmdb",
+              "sortBy": "popularity.desc",
+              "cacheTTL": 86400,
+              "catalogType": "series",
+              "includeGenres": [],
+              "excludeGenres": [],
+              "genreJoinMode": "or",
+              "originalLanguage": "",
+              "originCountry": "",
+              "certificationCountry": "",
+              "certificationValue": "",
+              "includeAdult": false,
+              "releasedOnly": false,
+              "selectedPeople": [],
+              "peopleJoinMode": "or",
+              "withCompanies": [],
+              "withoutCompanies": [],
+              "companyJoinMode": "or",
+              "withKeywords": [],
+              "withoutKeywords": [],
+              "keywordJoinMode": "or",
+              "watchRegion": "US",
+              "watchProviders": [
+                {
+                  "id": 1852,
+                  "label": "Britbox Apple TV Channel "
+                }
+              ],
+              "providerJoinMode": "or",
+              "voteAverageRange": [
+                0,
+                10
+              ],
+              "voteCountMin": 0,
+              "runtimeRange": [
+                0,
+                400
+              ],
+              "primaryReleaseFrom": "",
+              "primaryReleaseTo": "",
+              "movieDatePreset": "clear",
+              "firstAirFrom": "",
+              "firstAirTo": "",
+              "seriesDatePreset": "clear",
+              "airDateFrom": "",
+              "airDateTo": "",
+              "releaseRegion": ""
+            }
+          }
+        }
+      },
+      {
+        "id": "mdblist.3923",
+        "type": "movie",
+        "name": "Crazy Plot Twists",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 100,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/crazy-plot-twists",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3091",
+        "type": "series",
+        "name": "UK Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 300,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/channel-4-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.3107",
+        "type": "movie",
+        "name": "Comedy",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 400,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/comedy",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3920",
+        "type": "movie",
+        "name": "Outer Space & Space Exploration Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 132,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/outer-space-space-exploration-movies",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3110",
+        "type": "movie",
+        "name": "Horror",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 385,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/horror",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3364",
+        "type": "movie",
+        "name": "Sci-Fi",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 272,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/sci-fi",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2202",
+        "type": "movie",
+        "name": "Latest Blu-ray Releases",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 44,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/latest-blu-ray-releases",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3125",
+        "type": "series",
+        "name": "Sci-Fi Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 144,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/sci-fi-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.3111",
+        "type": "movie",
+        "name": "Thriller",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 400,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/thriller",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3122",
+        "type": "series",
+        "name": "Comedy Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 300,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/comedy-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.3126",
+        "type": "series",
+        "name": "Crime Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 500,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/crime-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.69",
+        "type": "movie",
+        "name": "IMDb Moviemeter (Top 100)",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 58,
+          "author": "linaspurinis",
+          "url": "https://mdblist.com/lists/linaspurinis/imdb-moviemeter-top-100",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3124",
+        "type": "series",
+        "name": "Horror Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 142,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/horror-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.960",
+        "type": "movie",
+        "name": "Latest Releases",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 100,
+          "author": "linaspurinis",
+          "url": "https://mdblist.com/lists/linaspurinis/latest-releases",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3108",
+        "type": "movie",
+        "name": "Crime",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 400,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/crime",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2885",
+        "type": "movie",
+        "name": "Documentaries",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/documentary",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.3123",
+        "type": "series",
+        "name": "Drama Shows",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 500,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/drama-shows",
+          "mediatype": "show"
+        }
+      },
+      {
+        "id": "mdblist.2618",
+        "type": "movie",
+        "name": "Top Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 300,
+          "author": "garycrawfordgc",
+          "url": "https://mdblist.com/lists/garycrawfordgc/top-movies",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.4081",
+        "type": "movie",
+        "name": "Top 50 Parody Movies of All Time",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 50,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/top-50-parody-movies-of-all-time",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.4390",
+        "type": "movie",
+        "name": "True Crime Documentaries",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 34,
+          "author": "hdlists",
+          "url": "https://mdblist.com/lists/hdlists/true-crime-documentaries",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2798",
+        "type": "movie",
+        "name": "Horror Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/horror",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2858",
+        "type": "movie",
+        "name": "Thrilling",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/thrilling",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2889",
+        "type": "movie",
+        "name": "Sci-fi Movies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/sci-fi",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.7998",
+        "type": "movie",
+        "name": "SciFi",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 767,
+          "author": "adamosborne01",
+          "url": "https://mdblist.com/lists/adamosborne01/scifi1",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2882",
+        "type": "movie",
+        "name": "Comedies",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/comedy",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.2909",
+        "type": "movie",
+        "name": "Time Travel",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 99,
+          "author": "rizreflects",
+          "url": "https://mdblist.com/lists/rizreflects/time-travel",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.1198",
+        "type": "movie",
+        "name": "Most Popular Movies [top-20]",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 16,
+          "author": "linaspurinis",
+          "url": "https://mdblist.com/lists/linaspurinis/most-popular-movies-top-20",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.7996",
+        "type": "movie",
+        "name": "Action & Adventure",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 1162,
+          "author": "adamosborne01",
+          "url": "https://mdblist.com/lists/adamosborne01/action1",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.8189",
+        "type": "movie",
+        "name": "Comedy",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 512,
+          "author": "adamosborne01",
+          "url": "https://mdblist.com/lists/adamosborne01/comedy",
+          "mediatype": "movie"
+        }
+      },
+      {
+        "id": "mdblist.1176",
+        "type": "movie",
+        "name": "Latest Certified Fresh Releases",
+        "enabled": true,
+        "showInHome": true,
+        "source": "mdblist",
+        "sort": "default",
+        "order": "asc",
+        "cacheTTL": 86400,
+        "genreSelection": "standard",
+        "enableRatingPosters": true,
+        "metadata": {
+          "itemCount": 30,
+          "author": "linaspurinis",
+          "url": "https://mdblist.com/lists/linaspurinis/latest-certified-fresh-releases",
+          "mediatype": "movie"
+        }
+      }
+    ],
+    "search": {
+      "enabled": true,
+      "ai_enabled": false,
+      "providers": {
+        "movie": "tmdb.search",
+        "series": "tvdb.search",
+        "anime_movie": "mal.search.movie",
+        "anime_series": "mal.search.series",
+        "people_search_movie": "tmdb.people.search",
+        "people_search_series": "tmdb.people.search"
+      },
+      "engineEnabled": {
+        "tmdb.search": true,
+        "tvdb.search": true,
+        "tvdb.collections.search": false,
+        "tvmaze.search": true,
+        "trakt.search": true,
+        "mdblist.search": true,
+        "people_search_movie": false,
+        "people_search_series": false,
+        "mal.search.movie": false,
+        "mal.search.series": false
+      },
+      "searchNames": {},
+      "searchOrder": [
+        "movie",
+        "series",
+        "tvdb.collections.search",
+        "gemini.search",
+        "anime_series",
+        "anime_movie",
+        "people_search_movie",
+        "people_search_series"
+      ]
+    },
+    "streaming": [],
+    "exclusionKeywords": "",
+    "lastModified": 1771902118025,
+    "configVersion": 1771902118026,
+    "configHash": "0806c10a067db59b"
+  },
+  "metadata": {
+    "apiKeysExcluded": true,
+    "totalCatalogs": 155,
+    "enabledCatalogs": 59
+  }
+}
